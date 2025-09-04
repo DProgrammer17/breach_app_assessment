@@ -10,13 +10,12 @@
 
 ### ▶️ Screenshots
 
-<img src="screenshots/Screenshot_20250904_163549.png" width="150" height="300"/>
-
-<img src="screenshots/Screenshot_20250904_163614.png" width="150" height="300"/>
-
-<img src="screenshots/Screenshot_20250904_163636.png" width="150" height="300"/>
-
-<img src="screenshots/Screenshot_20250904_163646.png" width="150" height="300"/>
+<p float="left">
+  <img src="screenshots/Screenshot_20250904_163549.png" width="150" height="300"/>
+  <img src="screenshots/Screenshot_20250904_163614.png" width="150" height="300"/>
+  <img src="screenshots/Screenshot_20250904_163636.png" width="150" height="300"/>
+  <img src="screenshots/Screenshot_20250904_163646.png" width="150" height="300"/>
+</p>
 
 > [!NOTE]
 > Project runs on flutter version 3.32.5
