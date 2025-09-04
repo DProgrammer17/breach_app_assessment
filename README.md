@@ -3,7 +3,7 @@
 ### ▶️ Demo Showcase
 
 <img src="submission/demo.gif" alt="Android Demo Showcase"/>
-<img src="screenshots/Screenshot_20250904_163549.png"/>
+<img src="screenshots/Screenshot_20250904_163549.png" width="200", height="400"/>
 <img src="screenshots/Screenshot_20250904_163614.png"/>
 <img src="screenshots/Screenshot_20250904_163636.png"/>
 <img src="screenshots/Screenshot_20250904_163646.png"/>
