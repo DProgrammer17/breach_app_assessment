@@ -11,10 +11,10 @@
 ### ▶️ Screenshots
 
 <p float="left">
-  <img src="screenshots/Screenshot_20250904_163549.png" width="150" height="300"/>
-  <img src="screenshots/Screenshot_20250904_163614.png" width="150" height="300"/>
-  <img src="screenshots/Screenshot_20250904_163636.png" width="150" height="300"/>
-  <img src="screenshots/Screenshot_20250904_163646.png" width="150" height="300"/>
+  <img src="screenshots/Screenshot_20250904_163549.png" width="100" height="200"/>
+  <img src="screenshots/Screenshot_20250904_163614.png" width="100" height="200"/>
+  <img src="screenshots/Screenshot_20250904_163636.png" width="100" height="200"/>
+  <img src="screenshots/Screenshot_20250904_163646.png" width="100" height="200"/>
 </p>
 
 > [!NOTE]
