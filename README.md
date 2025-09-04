@@ -58,6 +58,8 @@ This project was built with the riverpod state management solution, for easy glo
 You can run the project locally if you pull the repository and have flutter installed or you can
 download any of the 2 apk files in the submission folder and install on your android device.
 
+Click Here for Google Drive: [Drive](https://drive.google.com/drive/folders/1Me7CLE7dsOmTflaHP2PgSpuMP9sFYWBW?usp=sharing)
+
 
 ### 🤖 How to make a build
 past this script in your bash terminal and run it: flutter build apk --release --split-per-abi
