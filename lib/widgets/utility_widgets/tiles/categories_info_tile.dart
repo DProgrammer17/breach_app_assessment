@@ -18,7 +18,7 @@ class CategoriesInfoTile extends ConsumerWidget {
   });
 
   @override
-  Widget build(BuildContext context, WidgetRef) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return InkWell(
       onTap: action,
       child: Container(

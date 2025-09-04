@@ -60,26 +60,29 @@ class CategoriesFilterWidget extends ConsumerWidget {
           ),
         ),
         24.sbH,
-        SingleChildScrollView(
-          child: Wrap(
-            spacing: 10.aw,
-            runSpacing: 10.ah,
-            children: List.generate(ref.watch(homeNotifier).categories.length, (
-              index,
-            ) {
-              final category = ref
-                  .watch(homeNotifier)
-                  .categories
-                  .elementAt(index);
-              return CategoriesInfoTile(
-                category: category,
-                selected:
-                    ref.read(homeNotifier).selectedCategory?.id == category.id,
-                action: () => ref
-                    .watch(homeNotifier.notifier)
-                    .updateCategoryFilter(context: context, category: category),
-              );
-            }),
+        SizedBox(
+          height: AppConstants.deviceHeight * 0.56,
+          child: SingleChildScrollView(
+            child: Wrap(
+              spacing: 10.aw,
+              runSpacing: 10.ah,
+              children: List.generate(ref.watch(homeNotifier).categories.length, (
+                index,
+              ) {
+                final category = ref
+                    .watch(homeNotifier)
+                    .categories
+                    .elementAt(index);
+                return CategoriesInfoTile(
+                  category: category,
+                  selected:
+                      ref.read(homeNotifier).selectedCategory?.id == category.id,
+                  action: () => ref
+                      .watch(homeNotifier.notifier)
+                      .updateCategoryFilter(context: context, category: category),
+                );
+              }),
+            ),
           ),
         ),
         32.sbH,

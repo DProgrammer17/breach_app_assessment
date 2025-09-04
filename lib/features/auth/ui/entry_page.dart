@@ -45,7 +45,7 @@ class EntryPage extends ConsumerWidget {
               ),
             ),
             12.sbH,
-            Image.asset(AppAssets.breachAnimatedLogo, height: AppConstants.deviceWidth * 0.6,),
+            Image.asset(AppAssets.breachAnimatedLogo, height: AppConstants.deviceWidth * 0.55,),
             12.sbH,
             RichText(
               text: TextSpan(

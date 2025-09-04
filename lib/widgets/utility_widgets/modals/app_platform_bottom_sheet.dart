@@ -81,50 +81,53 @@ abstract class AppPlatformBottomSheet {
       isDismissible: isDismissible,
       enableDrag: enableDrag,
       backgroundColor: backgroundColor ?? AppColors.overlayGrey.withOpacity(0.5),
-      builder: (ctx) => Column(
-        mainAxisSize: axisSize,
-        children: [
-          if (showCloseButton) ...[
-            12.sbH,
-            InkWell(
-              onTap: ()=> context.popSuper(),
-              child: Align(
-                alignment: Alignment.centerRight,
-                child: Container(
-                  height: 56.ah,
-                  width: 56.aw,
-                  alignment: Alignment.center,
-                  decoration: BoxDecoration(
-                    color: AppColors.neutralWhite,
-                    shape: BoxShape.circle,
-                  ),
-                  child: Icon(
-                    CupertinoIcons.xmark,
-                    size: 18.ar,
-                    color: AppColors.grey900,
+      builder: (ctx) => Material(
+        color: backgroundColor ?? AppColors.overlayGrey.withOpacity(0.5),
+        child: Column(
+          mainAxisSize: axisSize,
+          children: [
+            if (showCloseButton) ...[
+              12.sbH,
+              InkWell(
+                onTap: ()=> context.popSuper(),
+                child: Align(
+                  alignment: Alignment.centerRight,
+                  child: Container(
+                    height: 56.ah,
+                    width: 56.aw,
+                    alignment: Alignment.center,
+                    decoration: BoxDecoration(
+                      color: AppColors.neutralWhite,
+                      shape: BoxShape.circle,
+                    ),
+                    child: Icon(
+                      CupertinoIcons.xmark,
+                      size: 18.ar,
+                      color: AppColors.grey900,
+                    ),
                   ),
                 ),
               ),
-            ),
-            8.sbH,
-          ],
-          Container(
-            padding: EdgeInsets.symmetric(
-              vertical: 16.ah,
-              horizontal: 16.aw,
-            ),
-            constraints: BoxConstraints(
-              maxHeight: AppConstants.deviceHeight * 0.8
-            ),
-            decoration: BoxDecoration(
-              color: AppColors.neutralWhite,
-              borderRadius: BorderRadius.vertical(
-                top: Radius.circular((borderRadius ?? 32).ar),
+              8.sbH,
+            ],
+            Container(
+              padding: EdgeInsets.symmetric(
+                vertical: 16.ah,
+                horizontal: 16.aw,
               ),
+              constraints: BoxConstraints(
+                maxHeight: AppConstants.deviceHeight * 0.8
+              ),
+              decoration: BoxDecoration(
+                color: AppColors.neutralWhite,
+                borderRadius: BorderRadius.vertical(
+                  top: Radius.circular((borderRadius ?? 32).ar),
+                ),
+              ),
+              child: content.call(context),
             ),
-            child: content.call(context),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
