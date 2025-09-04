@@ -1,0 +1,111 @@
+name: breach_assessment
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+#  utility plugins
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.0.17
+  flutter_riverpod: ^2.6.1
+  cached_network_image: ^3.4.1
+  modal_bottom_sheet: ^3.0.0
+  shared_preferences: ^2.5.3
+  intl: ^0.18.1
+  lottie: ^3.3.1
+
+#  networking plugins
+  dio: ^5.8.0+1
+  either_dart: ^1.0.0
+  pretty_dio_logger: ^1.4.0
+  web_socket_channel: ^3.0.3
+
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/png/
+    - assets/svg/
+    - assets/gif/
+    - assets/fonts/
+    - assets/lottie/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter_24pt-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/inter/Inter_24pt-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/inter/Inter_24pt-Light.ttf
+          weight: 300
+        - asset: assets/fonts/inter/Inter_24pt-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/inter/Inter_24pt-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/inter/Inter_24pt-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/inter/Inter_24pt-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/inter/Inter_24pt-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/inter/Inter_24pt-Black.ttf
+          weight: 900
+
+    - family: Grotesk
+      fonts:
+        - asset: assets/fonts/space_grotesk/SpaceGrotesk-Light.ttf
+          weight: 300
+        - asset: assets/fonts/space_grotesk/SpaceGrotesk-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/space_grotesk/SpaceGrotesk-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/space_grotesk/SpaceGrotesk-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/space_grotesk/SpaceGrotesk-Bold.ttf
+          weight: 700
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
