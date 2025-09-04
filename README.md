@@ -1,12 +1,16 @@
 # 🏗️ Breach Interview Task
 
-### ▶️ Demo Showcase
+### ▶️ Android Demo Showcase
+<img src="screenshots/android_app_demo.gif" alt="Android Demo Showcase"/>
 
-<img src="submission/demo.gif" alt="Android Demo Showcase"/>
-<img src="screenshots/Screenshot_20250904_163549.png" width="200", height="400"/>
-<img src="screenshots/Screenshot_20250904_163614.png"/>
-<img src="screenshots/Screenshot_20250904_163636.png"/>
-<img src="screenshots/Screenshot_20250904_163646.png"/>
+### ▶️ Ios Demo Showcase
+<img src="screenshots/ios_app_demo.gif" alt="IOS Demo Showcase"/>
+
+### ▶️ Screenshots
+<img src="screenshots/Screenshot_20250904_163549.png" width="200", height="300"/>
+<img src="screenshots/Screenshot_20250904_163614.png" width="200", height="300"/>
+<img src="screenshots/Screenshot_20250904_163636.png" width="200", height="300"/>
+<img src="screenshots/Screenshot_20250904_163646.png" width="200", height="300"/>
 
 > [!NOTE]
 > Project runs on flutter version 3.32.5
