@@ -1,12 +1,15 @@
 # 🏗️ Breach Interview Task
 
 ### ▶️ Android Demo Showcase
+
 <img src="screenshots/android_app_demo.gif" alt="Android Demo Showcase"/>
 
 ### ▶️ Ios Demo Showcase
+
 <img src="screenshots/ios_app_demo.gif" alt="IOS Demo Showcase"/>
 
 ### ▶️ Screenshots
+
 <img src="screenshots/Screenshot_20250904_163549.png" width="200", height="300"/>
 <img src="screenshots/Screenshot_20250904_163614.png" width="200", height="300"/>
 <img src="screenshots/Screenshot_20250904_163636.png" width="200", height="300"/>
