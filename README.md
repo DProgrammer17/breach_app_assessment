@@ -3,11 +3,11 @@
 <table>
   <tr>
     <td align="center">
-      <h3>▶️ Android Demo Showcase</h3>
+      <h3>▶🚀 Android Demo Showcase</h3>
       <img src="screenshots/android_app_demo.gif" alt="Android Demo Showcase" width="150" height="300"/>
     </td>
     <td align="center">
-      <h3>▶️ iOS Demo Showcase</h3>
+      <h3>▶🚀 iOS Demo Showcase</h3>
       <img src="screenshots/ios_app_demo.gif" alt="iOS Demo Showcase" width="150" height="300"/>
     </td>
   </tr>
